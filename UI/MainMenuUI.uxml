@@ -1,7 +1,11 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/button.uss?fileID=7433441132597879392&amp;guid=273a19b6514bbe342a862e6023a8165e&amp;type=3#button" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: center;">
+        <ui:Label tabindex="-1" text="Jaba" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf?fileID=12800000&amp;guid=585188cdc4600544eb408bee749e4b3a&amp;type=3#ThaleahFat_TTF&apos;); -unity-font-definition: initial; font-size: 90px; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
     <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center;">
         <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" class="menuButton" />
         <ui:Button text="Source Code" display-tooltip-when-elided="true" name="SourceCode" class="menuButton" />
     </ui:VisualElement>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; left: 77px; background-image: url(&apos;project://database/Assets/Sprites/frog%20idle.png?fileID=2800000&amp;guid=b5704cc9704078845a87738b28ec04df&amp;type=3#frog idle&apos;); height: 20%; width: 20%; top: 100px; -unity-background-scale-mode: scale-to-fit; scale: -1 1; rotate: 345deg;" />
 </ui:UXML>
