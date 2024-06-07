@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/button.uss?fileID=7433441132597879392&amp;guid=273a19b6514bbe342a862e6023a8165e&amp;type=3#button" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 2; background-color: rgba(0, 0, 0, 0);" />
+        <ui:VisualElement name="BottomContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:VisualElement name="MoveContainer" style="background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-grow: 0; justify-content: space-between; align-items: flex-end;">
+                <ui:Button text="MoveLeft" display-tooltip-when-elided="true" name="MoveLeft" class="inputButton" />
+                <ui:Button text="MoveRight" display-tooltip-when-elided="true" name="MoveRight" class="inputButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="JumpContainer" style="background-color: rgba(0, 0, 0, 0); flex-grow: 4; flex-direction: row; justify-content: flex-end; align-items: flex-end;">
+                <ui:Button text="Jump" display-tooltip-when-elided="true" name="Jump" class="inputButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
